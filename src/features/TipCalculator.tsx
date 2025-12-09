@@ -194,7 +194,7 @@ const TipCalculator = () => {
 
         {!billInp && !people && !tip ? (
           <ResetButton bgColor="green-750" disabled $disable={true}>
-            <TextPreset4 color="green-900">RESET</TextPreset4>
+            <TextPreset4 color="green-800">RESET</TextPreset4>
           </ResetButton>
         ) : (
           <ResetButton
