@@ -219,21 +219,24 @@ Error generating stack: `+a.message+`
 `,j2=zt.div`
   justify-content: space-between;
 `,B2=()=>X.jsxs(q2,{children:[X.jsx(Y2,{src:m2,alt:""}),X.jsx(p2,{})]}),q2=zt.div`
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 88px;
-    background-color: ${({theme:i})=>i.colors["grey-200"]};
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 88px;
+  background-color: ${({theme:i})=>i.colors["grey-200"]};
 
-    @media (min-width: 650px) and (max-width: 1024px) {
-      padding-bottom: 80px; 
-    }
+  @media (min-width: 650px) and (max-width: 1024px) {
+    padding-bottom: 80px;
+  }
 `,Y2=zt.img`
-    width: 87px;
-    height: 53px;
+  width: 87px;
+  height: 53px;
+
+  @media (max-width: 650px) {
     margin-top: 50px;
+  }
 `,G2=()=>X.jsx(X.Fragment,{children:X.jsx(dm,{children:X.jsx(B2,{})})}),X2=y2`
     * {
         padding: 0;
